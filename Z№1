@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TEX</title>
+<style>
+.big{font-size: 5em;}
+.tex{font-family: serif;
+letter-spacing: -0.4em;}
+.tex span {vertical-align: -0.3em;}
+</style>
+</head>
+<body>
+<p class="big"><font color='blue'>J</font>o<font color='red'>y</font> of <span class='tex'>T<span>E</span><font color='yellow'>X</font></span></p>
+</body>
+</html>
