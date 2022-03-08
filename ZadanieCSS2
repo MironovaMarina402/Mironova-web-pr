@@ -8,13 +8,16 @@
   margin-left:16px;
 border-left:1px solid navy;
 padding-left:16px;
-font-size:7em;}
+font-size:5em;}
 P.zwit{color:Teal;
 font-size:5em;}
 </style>
 </head>
 <body>
-  <p class="zwit">Text1</p>
-  <p class="zwet">Text2</p>
+  <p class="zwit">Часовые пояса,</p>
+  <p class="zwet">Словно времени – мосты,</p>
+  <p class="zwet">Поделили небеса -</p>
+  <p class="zwit">Где-то я, а где-то – ты</p>
   </body>
   </html>
+
