@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Задание 6.Таблица</title>
+     <style> 
+table {
+width: 70%; 
+border-collapse: collapse; 
+}
+
+td, th {
+border: 1px solid white; 
+width: 15%; 
+}
+
+}
+ th {
+  border: 1px solid white;
+  background:#1E90FF;
+  width: 20%;
+   text-align: center;
+}
+ 
+ td {
+  border: 1px solid white;
+  background:#87CEFA;
+  width: 20%;
+   text-align: center;
+}
+ tr:hover td {
+  border: 1px solid white;
+  background: #00008B;
+
+}
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+   <col span="5" style='background-color:CornflowerBlue'>
+   <col style='background-color:CornflowerBlue'> 
+   <col style='background-color:CornflowerBlue'> 
+   <col style='background-color:CornflowerBlue'> 
+   <col style='background-color:CornflowerBlue'>
+ </colgroup>
+<tr>
+  <th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>
+  </tr>
+<tr>
+  <th>Microsoft</th><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td>
+</tr>
+<tr>
+  <th>Google</th><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td>
+</tr>
+<tr>
+  <th>Apple</th><td>25.4</td><td>30/2</td><td>22/3</td><td>36.7</td>
+</tr>
+<tr>
+  <th>IBM</th><td>20.4</td><td>15/6</td><td>22.3</td><td>29.3</th>
+  </table>
+ </body>
+</html>
