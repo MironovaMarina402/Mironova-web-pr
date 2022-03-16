@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 5. Форма</title> 
+    <style media="screen">
+   {
+    margin: 0;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    font-size: 50%;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    place-items: ;
+    place-content: right;
+    background:white;
+  }
+  section {
+    width: 100%;
+    max-width: 44rem;
+  }
+  h1 {
+    font-size: 2.125rem;
+    margin-bottom: 4rem;
+  }
+   :not(h1) {
+    font-size: 1.6rem;
+  }
+  form,
+  label {
+    display: grid;
+    grid-gap: 2rem;
+  }
+  label {
+    align-items: left;
+    grid-template-columns: auto 1fr;
+  }
+  input {
+    background: skyblue;
+    color: rgb(7 2 18);
+    transition: all 200ms ease;
+    border-left: 0 solid transparent;
+  }
+  input,
+  button {
+    border: 0;
+    height: 5.8rem;
+    padding: 0 calc(5.8rem * 0.5);
+    border-radius: calc(5.8rem * 0.3);
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+  }
+  button {
+    cursor: pointer;
+    background: skyblue;
+  }
+</style>
+  </head>
+  <body>
+   <section>
+    <h1>Написать нам</h1>
+    <form method="POST" action="/subscribe">
+      <label>
+        <span>Name</span><input type="text" Username="Userame"  placeholder=" ">
+      </label>
+      <label>
+        <span>Email</span><input required type="Email" name="Email" placeholder="">
+      </label>
+      <label>
+        <span>SMS</span><input required type="Сообщение" name="Сообщение" placeholder=" ">
+      </label>
+      <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>
