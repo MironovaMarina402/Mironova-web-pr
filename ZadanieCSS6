@@ -38,10 +38,10 @@ width: 15%;
     <table>
       <colgroup>
    <col span="5" style='background-color:CornflowerBlue'>
-   <col style='background-color:CornflowerBlue'> 
-   <col style='background-color:CornflowerBlue'> 
-   <col style='background-color:CornflowerBlue'> 
-   <col style='background-color:CornflowerBlue'>
+   <col> 
+   <col> 
+   <col> 
+   <col>
  </colgroup>
 <tr>
   <th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>
