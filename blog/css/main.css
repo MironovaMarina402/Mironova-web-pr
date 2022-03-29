@@ -1,6 +1,14 @@
+body, ul{
+    margin: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column-reverse;
+    max-width: 1320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
  }
 .flex-container{
     display: flex;
@@ -35,7 +43,7 @@
     background-color: #333;
     color: blanchedalmond;
     max-width: 100%;
-    width: 64%;
+    width: 80%;
     height: 500px;
     margin-left: 35%;
     padding-left: 8px;
@@ -166,4 +174,29 @@
     color: #333;
     width: 360px;
     height: 200px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link{
+    padding: 0.5rem 1rem;
+    color: rgba(0,0,0,0.55);
+    text-decoration: none;
+}
+.nav-link.active{
+    color: rgba(0,0,0,0.9);
+}
+.bg-light{
+    background-color: #f3f3f3f1;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+}
+.collapse{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
