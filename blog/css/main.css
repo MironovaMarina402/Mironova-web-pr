@@ -43,8 +43,8 @@ body, ul{
     background-color: #333;
     color: blanchedalmond;
     max-width: 100%;
-    width: 80%;
-    height: 500px;
+    width: 75%;
+    height: 800px;
     margin-left: 35%;
     padding-left: 8px;
     padding-right: 2px;
@@ -58,10 +58,10 @@ body, ul{
     color: black;
     margin-top: 6px;
     width: 959px;
-    height: 200px;
+    height: 360px;
     margin-right: 5px;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 1px;
 }
 
 .box3{
@@ -69,16 +69,16 @@ body, ul{
     color: black;
     margin-top: 10px;
     width: 959px;
-    height: 200px;
+    height: 360px;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 .box4{
     background-color: rgb(88, 138, 138);
     color: black;
-    margin-top: 2px;
     width: 300px;
     height: 40px;
+    text-align: center;
 }
 .box5{
     background-color: rgb(88, 138, 138);
@@ -86,53 +86,68 @@ body, ul{
     margin-top: 2px;
     width: 300px;
     height: 40px;
+    text-align: center;
 }
 .box6{
     background-color: rgb(88, 138, 138);
     color: black;
-    margin-top: 3px;
+    margin-top: 1px;
     width: 900px;
-    height: 90px;
+    height: 235px;
     padding-left: 8px;
     padding-top: 8px;
+    text-align: center;
 }
 .box7{
-    background-color: rgb(88, 138, 138);
+    background-color:rgb(88, 138, 138) ;
     color: black;
-    margin-top: 3px;
+    margin-top: 1px;
     width: 900px;
-    height: 90px;
+    height: 235px;
     padding-left: 8px;
     padding-top: 8px;
+    text-align: center;
 }
 .boxx1{
+    background-image: url(file:///C:/Users/USER/OneDrive/Рабочий%20стол/Студент/веб-програм/Mironova-web-pr/Mironova-web-pr/Mironova-web-pr/blog/images/i.jpg);
+    background-size: cover;
     background-color: rgb(176, 201, 201);
     color: black;
-    margin-top: 2px;
-    width: 150px;
-    height: 80px;
+    margin-top: 1px;
+    width: 280px;
+    height: 200px;
 }
 .boxx2{
+    background-image: url(file:///C:/Users/USER/OneDrive/Рабочий%20стол/Студент/веб-програм/Mironova-web-pr/Mironova-web-pr/Mironova-web-pr/blog/images/эмблема_ТГПУ.jpg);
+    background-size: cover;
     background-color: rgb(176, 201, 201);
     color: black;
     margin-top: 2px;
-    width: 150px;
-    height: 80px;
+    width: 280px;
+    height: 200px;
 }
 .box8{
-    background-color: rgb(88, 138, 138);
+    background-color: azure;
     color: black;
     margin-top: 2px;
-    width: 300px;
-    height: 40px;
+    width: 95px;
+    height: 50px;
 }
 .box9{
-    background-color: rgb(88, 138, 138);
+    background-color: azure;
     color: black;
     margin-top: 2px;
-    width: 300px;
-    height: 40px;
+    width: 95px;
+    height: 50px;
 }
+.input, button {
+    font-size: 15px;
+    padding: 4px 8px;
+    border: 1px solid #494747;
+    border-radius: 3px;
+    margin-top: 1px;
+  }
+  
  .bg1{ 
     background-color: #333; 
     color: white; 
