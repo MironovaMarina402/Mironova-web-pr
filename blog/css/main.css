@@ -1,217 +1,182 @@
-body, ul{
-    margin: 0;
+body, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 0;  
 }
 
-.container {
-    display: flex;
-    flex-direction: column-reverse;
-    max-width: 1320px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
- }
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.bg-dark{
-    background-color: #333;
+.bg-dark {
+    background-color: rgb(112, 196, 179);
+    text-align: center;
 }
 
 .text-white {
-    color: #fff;
+    color: rgb(2, 32, 28);
 }
-.p-3 {
-    padding: 2.5rem;
-}
+
 .p-0 {
     padding: 0;
 }
+
+.p-1 {
+    padding: 1rem;
+}
+
 .p-2 {
     padding: 1.5rem;
 }
+
+.p-3 {
+    padding: 2rem;
+}
+
 .p-4 {
     padding: 2.5rem;
 }
+
 .p-5 {
     padding: 3rem;
 }
 
-.box1{
-    background-color: #333;
-    color: blanchedalmond;
-    max-width: 100%;
-    width: 75%;
-    height: 800px;
-    margin-left: 35%;
-    padding-left: 8px;
-    padding-right: 2px;
-    margin-top: 5px;
-    padding-right: 8px;
-    
+.mt-0 {
+    margin: 0;
 }
 
-.box2{
-    background-color: azure;
-    color: black;
-    margin-top: 6px;
-    width: 959px;
-    height: 360px;
-    margin-right: 5px;
-    padding-left: 5px;
-    padding-top: 1px;
+.mt-1 {
+    margin: 1rem;
 }
 
-.box3{
-    background-color: azure;
-    color: black;
-    margin-top: 10px;
-    width: 959px;
-    height: 360px;
-    padding-left: 5px;
-    padding-top: 2px;
+.mt-2 {
+    margin: 1.5rem;
 }
-.box4{
-    background-color: rgb(88, 138, 138);
-    color: black;
-    width: 300px;
-    height: 40px;
-    text-align: center;
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.box5{
-    background-color: rgb(88, 138, 138);
-    color: black;
-    margin-top: 2px;
-    width: 300px;
-    height: 40px;
-    text-align: center;
-}
-.box6{
-    background-color: rgb(88, 138, 138);
-    color: black;
-    margin-top: 1px;
-    width: 900px;
-    height: 235px;
-    padding-left: 8px;
-    padding-top: 8px;
-    text-align: center;
-}
-.box7{
-    background-color:rgb(88, 138, 138) ;
-    color: black;
-    margin-top: 1px;
-    width: 900px;
-    height: 235px;
-    padding-left: 8px;
-    padding-top: 8px;
-    text-align: center;
-}
-.boxx1{
-    background-image: url(file:///C:/Users/USER/OneDrive/Рабочий%20стол/Студент/веб-програм/Mironova-web-pr/Mironova-web-pr/Mironova-web-pr/blog/images/i.jpg);
-    background-size: cover;
-    background-color: rgb(176, 201, 201);
-    color: black;
-    margin-top: 1px;
-    width: 280px;
-    height: 200px;
-}
-.boxx2{
-    background-image: url(file:///C:/Users/USER/OneDrive/Рабочий%20стол/Студент/веб-програм/Mironova-web-pr/Mironova-web-pr/Mironova-web-pr/blog/images/эмблема_ТГПУ.jpg);
-    background-size: cover;
-    background-color: rgb(176, 201, 201);
-    color: black;
-    margin-top: 2px;
-    width: 280px;
-    height: 200px;
-}
-.box8{
-    background-color: azure;
-    color: black;
-    margin-top: 2px;
-    width: 95px;
-    height: 50px;
-}
-.box9{
-    background-color: azure;
-    color: black;
-    margin-top: 2px;
-    width: 95px;
-    height: 50px;
-}
-.input, button {
-    font-size: 15px;
-    padding: 4px 8px;
-    border: 1px solid #494747;
-    border-radius: 3px;
-    margin-top: 1px;
-  }
-  
- .bg1{ 
-    background-color: #333; 
-    color: white; 
-    max-width: 100%; 
-    width: 99%; 
-    height: 200px; 
-    padding-left: 15px;  
-    padding-right: 3px;  
-    padding-top: 5px;  
-    margin-top: 5px;  
-    margin-right: 8px; 
-    padding-bottom: 5px;
-    align-items: center;
-}
-.bg2{
-    background-color: azure;
-    color: #333;
-    width: 360px;
-    height: 200px;
-    margin-right: 8px;
-    margin-bottom: 2px;
-}
-.bg3{
-    background-color: rgb(138, 228, 228);
-    color: #333;
-    width: 360px;
-    height: 200px;
-    margin-right: 8px;
-}
-.bg4{
-    background-color: rgb(127, 143, 143);
-    color: #333;
-    width: 360px;
-    height: 200px;
-    margin-right: 8px;
-}
-.bg5{
-    background-color: rgb(43, 77, 77);
-    color: #333;
-    width: 360px;
-    height: 200px;
-}
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-.nav-link{
+
+.nav-link {
     padding: 0.5rem 1rem;
     color: rgba(0,0,0,0.55);
     text-decoration: none;
 }
-.nav-link.active{
+.nav-link1 {
+    padding: 0.5rem 1rem;
+    color: rgb(6, 44, 39);
+    text-decoration: none;
+}
+
+.nav-link.active {
     color: rgba(0,0,0,0.9);
 }
-.bg-light{
-    background-color: #f3f3f3f1;
+
+.bg-light {
+    background-color: rgb(151, 218, 204)
 }
-.navbar{
+
+.navbar {
     height: 50px;
     display: flex;
 }
-.collapse{
+
+.collapse {
     height: 100%;
     display: flex;
     align-items: center;
 }
+
+.sidebar {
+    width: 22%;
+    height: 320px;
+    margin-right: 4px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+ .list li{
+    padding: 10px 30px;
+    background:rgb(22, 138, 114);
+    color: rgb(29, 59, 55);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+    .list li:first-child{
+        border-bottom: none;
+}
+.post-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(78, 165, 148);
+    color: #0e0d0d;
+}
+article img {
+    max-width: 250px;
+    margin-right: 15px;
+}
+.post-body {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.post-header{
+    margin-top: 15px;
+}
+
+.post-meta {
+    display: flex;
+    font-size: 14px;
+}
+
+.post-meta > * {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.post-meta span {
+    font-style: italic;
+}
+.bg1 {
+    width: 20%;
+    border: 1px solid;
+    border-color: rgb(14, 65, 31);
+    margin: 0.5em;
+    background-color: rgb(8, 83, 68);
+    color: aliceblue;
+}
+.bg0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: azure;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(8, 83, 68);
+    color: azure;
+}
+body{
+    background-color: rgb(182, 232, 221);
+}
+
+
+
+  
+ 
