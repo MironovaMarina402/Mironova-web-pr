@@ -1,0 +1,263 @@
+body, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 0;  
+}
+
+.bg-dark {
+    background-color: rgb(112, 196, 179);
+    text-align: center;
+    display: flex;
+}
+
+.text-white {
+    color: rgb(2, 32, 28);
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 2.5rem;
+}
+
+.p-5 {
+    padding: 3rem;
+}
+
+.mt-0 {
+    margin: 0;
+}
+
+.mt-1 {
+    margin: 1rem;
+}
+
+.mt-2 {
+    margin: 1.5rem;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: rgba(0,0,0,0.55);
+    text-decoration: none;
+}
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
+
+.bg-light {
+    background-color: rgb(151, 218, 204)
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+}
+
+.collapse {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    width: 22%;
+    height: 320px;
+    margin-right: 4px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+ .list li{
+    padding: 10px 30px;
+    background:rgb(22, 138, 114);
+    color: rgb(29, 59, 55);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+    .list li:first-child{
+        border-bottom: none;
+}
+.nav-link1 {
+    padding: 0.5rem 1rem;
+    color: rgb(6, 44, 39);
+    text-decoration: none;
+}
+
+.post-header{
+    margin-top: 15px;
+}
+.post-meta {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    padding: 3px;
+    border: 2px solid rgb(6, 44, 39);
+    margin-left: 10px;
+    background-color: rgb(39, 85, 79);
+    color: aliceblue;
+}
+
+.post-meta > * {
+    margin: 0;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    padding: 7px;
+    background-color: rgb(73, 147, 136);
+}
+
+.post-meta span {
+    font-style: italic;
+}
+.btn{
+    background-color: rgb(62, 241, 206);
+    color: azure;
+}
+body{
+    background-color: rgb(182, 232, 221);
+}
+.post-body {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.article {
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(84, 202, 143);
+    color: #0e0d0d;
+}
+.article img {
+    max-width: 250px;
+    margin-right: 15px;
+}
+.content{
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(60, 167, 149);
+    color: #0e0d0d; 
+}
+.boddy{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.photo{
+    margin-top: 7px;
+}
+.rez1{
+    border: 1px solid #333;
+    background-color: rgba(4, 191, 138, 0.874);
+    margin-bottom: 2px;
+}
+.post-footer{
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color: rgb(39, 213, 198);
+    color: azure;
+    color: #0e0d0d;
+}
+.str-bg-peach {
+    background-color: #f3bb86;
+    width: 100%;
+    height: 100%;
+}
+.form-bg-white {
+    background-color: rgb(14, 202, 164);
+    border-radius: 25px;
+    top: 15%;
+    left: 35%;
+    padding: 30px;
+    width: 25%;
+    height: 65%;
+}
+.form-title {
+    text-align: left;
+    font-family: cursive;
+    font-size: x-large;
+}
+.input-username {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+.input-email {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+.input-ms {
+    background-color: rgb(217, 231, 243);
+    border: 1px solid rgb(203, 223, 240);
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    justify-content:end;
+}
+.btn3 {
+    padding: 15px;
+    border: 1px solid rgb(19, 226, 198);
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform:uppercase;
+    color: rgb(14, 10, 10);
+    background-color: #4ffdc9;
+    width: 100%;
+}
+
+.bg1 {
+    width: 20%;
+    border: 1px solid;
+    border-color: rgb(14, 65, 31);
+    margin: 0.5em;
+    background-color: rgb(8, 83, 68);
+    color: aliceblue;
+}
+.bg0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: azure;
+    text-align: center;
+}
