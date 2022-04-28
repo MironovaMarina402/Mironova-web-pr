@@ -1,0 +1,140 @@
+.post-body {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(125, 210, 250, 0.8);   
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-2 {
+    background-color: #c7ccf0;
+}
+
+.bg-1 {
+    background-color: #979fdd;
+}
+
+.photo {
+    align-items: center;
+}
+.post-meta {
+    display: flex;
+    font-size: 15px;
+}
+.post-meta > * {
+    margin: 0;
+    margin-right: 15px; 
+    text-align: center;
+}
+.post-meta span {
+    font-style: italic;
+}
+
+.paginate {
+    display: flex;
+    list-style: none;
+}
+.paginate-item {
+    border: 1px solid #5072a8;
+    margin: 2px;
+
+    transition: 0.9s;
+    background-color: #1b335a;
+}
+.paginate-item a {
+    padding: 1.25rem 0.5rem;
+}
+.paginate a, .paginate a:visited {
+    color:#fff;
+}
+
+.paginate a {
+    text-decoration: none;
+}
+.paginate-item:hover {
+    background-color: #fff;
+}
+.paginate-item:hover a {
+    color: #01172c;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.post-header a, post-header a:visited {
+    color: rgb(5, 41, 75);
+    text-decoration: none;
+}
+.post {
+border: 1px solid rgb(83, 206, 236);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 3px;
+}
+.btn {
+    border: 2px solid rgb(51, 129, 153);
+    color: rgb(255, 255, 255);
+    background-color: #1b335a;
+}
+.btn a, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link {
+    padding: 0.5rem;
+    color: rgba(0, 0, 0,0.55);
+    text-decoration: none;
+
+}
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
+
+.paginate {
+    display: flex;
+    list-style: none;
+}
+.paginate-item {
+    border: 1px solid #2d3644;
+    margin: 2px;
+
+    transition: 0.9s;
+    background-color: #193c75;
+}
+.paginate-item a {
+    padding: 1.25rem 0.5rem;
+}
+.paginate a, .paginate a:visited {
+    color:#fff;
+}
+
+.paginate a {
+    text-decoration: none;
+}
+.paginate-item:hover {
+    background-color: #fff;
+}
+.paginate-item:hover a {
+    color: #023a5a;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.bg-blue {
+    background-color: #5072a8;
+}
+
+.bg-blue1 {
+    background-color: #5380c9;
+}
+
