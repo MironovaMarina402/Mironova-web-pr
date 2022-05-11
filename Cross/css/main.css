@@ -1,0 +1,129 @@
+body{
+    background-color: rgba(78, 66, 66, 0.226);
+}
+.card{
+    margin: 4px;
+}
+.card-img{
+    height: 250px;
+}
+.card-img-overlay{
+    text-align: center;
+}
+.mr-3{
+    height:64px;
+    width:64px;
+}
+.nav-link{
+    color: black;
+}
+.nav{
+    background-color: rgb(158, 165, 172);
+}
+.btn{
+    background-color: rgb(158, 165, 172);
+}
+.card1{
+    background-color: azure;
+}
+.page-link{
+    color: black;
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+}
+#menu1{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+#menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    background: #d3d0c9;
+}
+    #menu1 > ul::after{
+        display:block;
+        width:100%;
+        height:0px;
+        clear:both;
+        content:" ";
+    }
+        #menu1 ul li{
+            position:relative;
+            display:block;
+            float:left;
+            width:auto;
+            height:auto;
+        }
+            #menu1 ul li a{
+                display:block;
+                padding:9px 25px 0px 25px;
+                font-size:14px;
+                font-family:Arial, sans-serif;
+                color:#64645c;
+                line-height:1.3em;
+                text-decoration:none;
+                font-weight:bold;
+                text-transform:uppercase;
+                height:36px;
+                box-sizing:border-box;
+            }
+            #menu1 ul li > a:hover, .menu1 ul li:hover > a{
+                background:#e4e1dc;
+                color:#0e0f11;
+            }
+            #menu1 ul li ul{
+                position:absolute;
+                top:36px;
+                left:0px;
+                display:none;
+                width:200px;
+                background:#dfddd9;
+            }
+            #menu1 ul li:hover ul{display:block;}/*эта строчка реализует механизм выпадения*/
+                #menu1 ul li ul li{
+                    float:none;
+                    width:100%;
+                }
+                    #menu1 ul li ul li a{
+                        display:block;
+                        text-transform:none;
+                        height:auto;
+                        padding:7px 25px;
+                        width:100%;
+                        box-sizing:border-box;
+                        border-top:1px solid #ffffff;
+                    }
+                    #menu1 ul li ul li:first-child a{border-top:0px;}
+                    #menu1 ul li ul li a:hover{
+                        background:#e7e5e0;
+                        color:#111113;
+                    }
+.card-img-top{
+    max-width: 300px;
+    width: 100%;
+}
+.catcard{
+    display: flex;
+    flex-direction: row;
+}
+/* .card-group1{
+    max-width: 300px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+} */
+.menu{
+    display: flex;
+    flex-direction: row;
+}
